@@ -12,7 +12,11 @@ import java.util.List;
  */
 public class Player {
     /**
-     * Holds the unique username of the Player
+     * Holds the unique uuid of the Player
+     */
+    private String uuid;
+    /**
+     * Holds the username of the Player
      */
     private String username;
     /**
@@ -40,13 +44,28 @@ public class Player {
      * @param phoneNumber The phone number of the Player
      * @param region The region the Player is in
      */
-    public Player(String username, String email, String phoneNumber, String region) {
+    public Player(String uuid, String username, String email, String phoneNumber, String region) {
+        this.uuid = uuid;
         this.username = username;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.region = region;
     }
 
+    /**
+     * Constructor for new instance of Player object
+     */
+    public Player() {
+
+    }
+
+    public String getId(){
+        return uuid;
+    }
+
+    public void setId(String uuid){
+        this.uuid = uuid;
+    }
     /**
      * Gets the username of the Player
      * @return The String representing the username of the Player
@@ -126,7 +145,15 @@ public class Player {
      * @param code The QRCode the Player scanned to be added to list of codes
      */
     public void addCode(QRCode code) {
-        codes.add(code);
+        this.codes.add(code);
+    }
+
+    /**
+     * Adds all QRCodes from list to Player list of codes
+     * @param codes The list containing QRCode objects to add to Player list
+     */
+    public void addCodes(List<QRCode> codes) {
+        this.codes.addAll(codes);
     }
 
     /**
