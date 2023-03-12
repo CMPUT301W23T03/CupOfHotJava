@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_camera_barcode.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\camera_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_open_street_map.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\open_street_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_examplescan.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\examplescan.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_notvalid.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\notvalid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_ic_baseline_person_3_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\ic_baseline_person_3_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_commenting.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\commenting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_code_view_individ_owned.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\code_view_individ_owned.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_fragment_quick_navigation.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\fragment_quick_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_a_project_x.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\a_project_x.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_my_code_library_activity.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\my_code_library_activity.xml"
+    },
+    {
+        "merged": "com.example.ihuntwithjavalins.app-merged_res-34:/layout_signup.xml.flat",
+        "source": "com.example.ihuntwithjavalins.app-main-36:/layout/signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_home_page_2.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\home_page_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_ic_baseline_verified_user_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\ic_baseline_verified_user_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_camera.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_code_image_view.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\code_image_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-pngs-29:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_ic_baseline_verified_user_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\ic_baseline_verified_user_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_familiar_scan.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\familiar_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_addcode.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\addcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_content_code.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\content_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_monstor_image.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\monstor_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_signup.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable_monstor_image.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable\\monstor_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_examplescan.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\examplescan.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_home_page_click.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\home_page_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_a_project_x.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\a_project_x.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_ic_baseline_person_3_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\ic_baseline_person_3_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\layout_activity_homescreen.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\layout\\activity_homescreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_camera.png.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-merged_res-34:\\drawable-v24_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\Amogh Panhale\\.gradle\\daemon\\7.4\\com.example.ihuntwithjavalins.app-main-36:\\drawable-v24\\ic_baseline_menu_24.xml"
+    }
+]
