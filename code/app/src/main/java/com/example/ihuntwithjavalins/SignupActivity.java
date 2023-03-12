@@ -6,12 +6,17 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ihuntwithjavalins.Player.Player;
 import com.example.ihuntwithjavalins.Player.PlayerDB;
 import com.example.ihuntwithjavalins.common.DBConnection;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class SignupActivity extends AppCompatActivity {
@@ -53,36 +58,57 @@ public class SignupActivity extends AppCompatActivity {
                     return;
                 }
                 if (TextUtils.isEmpty(phone)) {
-                    usernameEditText.setError("Please enter a phone number");
+                    phoneEditText.setError("Please enter a phone number");
                     return;
                 }
                 if (TextUtils.isEmpty(email)) {
-                    usernameEditText.setError("Please enter a email");
+                    emailEditText.setError("Please enter an email");
                     return;
                 }
                 if (TextUtils.isEmpty(region)) {
-                    usernameEditText.setError("Please enter a region");
+                    regionEditText.setError("Please enter a region");
                     return;
                 }
-                connection.setPlayerUsername(username);
 
-                PlayerDB playerDB = new PlayerDB(connection);
+                db.collection("Users").document(username).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                        if (task.isSuccessful()) {
+                            DocumentSnapshot document = task.getResult();
+                            if (document.exists()) {
+                                // The username already exists in Firestore
+                                Log.d("Username", "This username is already taken");
+                                Toast.makeText(SignupActivity.this, "This username is already taken. Please choose a different username.", Toast.LENGTH_SHORT).show();
+                            }
+                            else {
+                                // The username is available in Firestore
+                                connection.setPlayerUsername(username);
 
-                // Create new Player object
-                Player player = new Player();
-                player.setUsername(username);
-                player.setPhoneNumber(phone);
-                player.setEmail(email);
-                player.setRegion(region);
+                                PlayerDB playerDB = new PlayerDB(connection);
 
-                playerDB.addPlayer(player, (addedPlayer, success) -> {
-                    if (success) {
-                        Log.i("SignupActivity", "Player added successfully: " + addedPlayer.getUsername());
-                    } else {
-                        Log.e("SignupActivity", "Failed to add player.");
+                                // Create new Player object
+                                Player player = new Player();
+                                player.setUsername(username);
+                                player.setPhoneNumber(phone);
+                                player.setEmail(email);
+                                player.setRegion(region);
+
+                                playerDB.addPlayer(player, (addedPlayer, success) -> {
+                                    if (success) {
+                                        Log.i("SignupActivity", "Player added successfully: " + addedPlayer.getUsername());
+                                    } else {
+                                        Log.e("SignupActivity", "Failed to add player.");
+                                    }
+                                });
+                            }
+                        }
+                        else {
+                            Log.e("SignupActivity", "Error getting document: ", task.getException());
+                        }
                     }
                 });
             }
         });
+
     }
 }
