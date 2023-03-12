@@ -26,12 +26,12 @@ com.example.ihuntwithjavalins.app-transition-1.2.0-24 C:\Users\Amogh Panhale\.gr
 com.example.ihuntwithjavalins.app-appcompat-1.6.1-25 C:\Users\Amogh Panhale\.gradle\caches\transforms-3\e2be6c5495a727b53141a8928c63c238\transformed\appcompat-1.6.1\res
 com.example.ihuntwithjavalins.app-lifecycle-livedata-core-2.5.1-26 C:\Users\Amogh Panhale\.gradle\caches\transforms-3\ec2e28859b9a4d43fbfbb2132b85113d\transformed\lifecycle-livedata-core-2.5.1\res
 com.example.ihuntwithjavalins.app-emoji2-views-helper-1.2.0-27 C:\Users\Amogh Panhale\.gradle\caches\transforms-3\f6a198da0b62859f390b4536ece35784\transformed\emoji2-views-helper-1.2.0\res
-com.example.ihuntwithjavalins.app-google-services-28 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\generated\res\google-services\debug
-com.example.ihuntwithjavalins.app-pngs-29 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\generated\res\pngs\debug
-com.example.ihuntwithjavalins.app-resValues-30 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\generated\res\resValues\debug
-com.example.ihuntwithjavalins.app-rs-31 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\generated\res\rs\debug
-com.example.ihuntwithjavalins.app-packageDebugResources-32 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.ihuntwithjavalins.app-packageDebugResources-33 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.ihuntwithjavalins.app-merged_res-34 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\build\intermediates\merged_res\debug
-com.example.ihuntwithjavalins.app-debug-35 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\debug\res
-com.example.ihuntwithjavalins.app-main-36 C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\res
+com.example.ihuntwithjavalins.app-google-services-28 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\generated\res\google-services\debug
+com.example.ihuntwithjavalins.app-pngs-29 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\generated\res\pngs\debug
+com.example.ihuntwithjavalins.app-resValues-30 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\generated\res\resValues\debug
+com.example.ihuntwithjavalins.app-rs-31 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\generated\res\rs\debug
+com.example.ihuntwithjavalins.app-packageDebugResources-32 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.ihuntwithjavalins.app-packageDebugResources-33 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.ihuntwithjavalins.app-merged_res-34 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\build\intermediates\merged_res\debug
+com.example.ihuntwithjavalins.app-debug-35 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\debug\res
+com.example.ihuntwithjavalins.app-main-36 C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\res

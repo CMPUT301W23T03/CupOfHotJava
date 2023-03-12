@@ -19,9 +19,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="text"
+        android:hint="Name"
         app:layout_constraintTop_toBottomOf="@+id/message"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/signup_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone number"
+        app:layout_constraintTop_toBottomOf="@+id/signup_username"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        app:layout_constraintTop_toBottomOf="@+id/signup_phone"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/signup_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Region"
+        app:layout_constraintTop_toBottomOf="@+id/signup_email"
         tools:layout_editor_absoluteX="0dp" />
 
 
@@ -30,6 +60,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign up!"
-        app:layout_constraintTop_toBottomOf="@+id/signup_username"
+        app:layout_constraintTop_toBottomOf="@+id/signup_region"
         tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

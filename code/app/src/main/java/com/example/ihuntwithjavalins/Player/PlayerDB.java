@@ -83,8 +83,9 @@ public class PlayerDB {
         String playerUsername = player.getUsername();
         DocumentReference playerRef = collection.document(playerUsername);
         Map<String, Object> item = new HashMap<>();
-//        item.put("Email", player.getEmail());
-//        item.put("Region", player.getRegion());
+        item.put("Phone", player.getPhoneNumber());
+        item.put("Email", player.getEmail());
+        item.put("Region", player.getRegion());
         //item.put("highest score", 0);
         //item.put("total score", 0);
         batch.set(playerRef, item);

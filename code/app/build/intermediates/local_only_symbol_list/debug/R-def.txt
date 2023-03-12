@@ -109,6 +109,9 @@ id save_comment
 id scan_code_text
 id show_attached
 id signup_button
+id signup_email
+id signup_phone
+id signup_region
 id signup_username
 id surface_view
 id textView_hosc_code

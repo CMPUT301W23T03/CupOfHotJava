@@ -6,55 +6,55 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml
+8-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml
+9-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
 10
 11    <!-- for camera and barcode stuff -->
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:6:5-65
-12-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:6:22-62
+12-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:6:22-62
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:7:5-67
-13-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:7:22-64
+13-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:7:22-64
 14
 15    <uses-feature
-15-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:8:5-10:35
+15-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:8:5-10:35
 16        android:name="android.hardware.camera"
-16-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:9:9-47
+16-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:9:9-47
 17        android:required="true" />
-17-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:10:9-32
+17-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:10:9-32
 18    <uses-feature
-18-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:11:5-88
+18-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:11:5-88
 19        android:name="android.hardware.camera.back"
-19-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:11:19-62
+19-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:11:19-62
 20        android:required="true" />
-20-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:11:63-86
+20-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:11:63-86
 21    <uses-feature android:name="android.hardware.camera.autofocus" />
-21-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:12:5-70
-21-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:12:19-67
+21-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:12:5-70
+21-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:12:19-67
 22    <!-- for camera and barcode stuff (END) -->
 23
 24
 25    <!-- for open street map stuff -->
 26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-26-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:16:5-80
-26-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:16:22-78
+26-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:16:5-80
+26-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:16:22-78
 27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-27-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:17:5-78
-27-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:17:22-76
+27-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:17:5-78
+27-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:17:22-76
 28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-28-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:18:5-76
-28-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:18:22-73
+28-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:18:5-76
+28-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:18:22-73
 29    <uses-permission android:name="android.permission.INTERNET" />
-29-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:7:5-67
-29-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:7:22-64
+29-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:7:5-67
+29-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:7:22-64
 30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-30-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:20:5-80
-30-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:20:22-76
+30-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:20:5-80
+30-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:20:22-76
 31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-31-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:21:5-81
-31-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:21:22-78
+31-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:21:5-81
+31-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:21:22-78
 32
 33    <supports-screens
 33-->[org.osmdroid:osmdroid-android:6.1.12] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\d8e702fcccab9474ba73db1a63f45f5a\transformed\osmdroid-android-6.1.12\AndroidManifest.xml:9:5-12:40
@@ -104,102 +104,102 @@
 58-->[androidx.core:core:1.9.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\c9d1df73793a88888b9fc2986788e2da\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 58-->[androidx.core:core:1.9.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\c9d1df73793a88888b9fc2986788e2da\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 59    <application
-59-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:26:5-93:19
+59-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:26:5-93:19
 60        android:allowBackup="true"
-60-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:27:9-35
+60-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:27:9-35
 61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 61-->[androidx.core:core:1.9.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\c9d1df73793a88888b9fc2986788e2da\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 62        android:dataExtractionRules="@xml/data_extraction_rules"
-62-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:28:9-65
+62-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:28:9-65
 63        android:debuggable="true"
 64        android:fullBackupContent="@xml/backup_rules"
-64-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:29:9-54
+64-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:29:9-54
 65        android:icon="@mipmap/ic_launcher"
-65-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:30:9-43
+65-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:30:9-43
 66        android:label="@string/app_name"
-66-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:31:9-41
+66-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:31:9-41
 67        android:roundIcon="@mipmap/ic_launcher_round"
-67-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:32:9-54
+67-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:32:9-54
 68        android:supportsRtl="true"
-68-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:33:9-35
+68-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:33:9-35
 69        android:testOnly="true"
 70        android:theme="@style/Theme.IHuntWithJavalins" >
-70-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:34:9-55
+70-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:34:9-55
 71
 72        <!-- for camera and barcode stuff -->
 73        <meta-data
-73-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:38:9-40:39
+73-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:38:9-40:39
 74            android:name="com.google.android.gms.vision.DEPENDENCIES"
-74-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:39:13-70
+74-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:39:13-70
 75            android:value="barcode" />
-75-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:40:13-36
+75-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:40:13-36
 76        <!-- for camera and barcode stuff (END) -->
 77
 78        <activity
-78-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:43:9-55:20
+78-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:43:9-55:20
 79            android:name="com.example.ihuntwithjavalins.SignupActivity"
-79-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:44:13-43
+79-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:44:13-43
 80            android:exported="true" >
-80-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:45:13-36
+80-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:45:13-36
 81            <intent-filter>
-81-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:46:13-50:29
+81-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:46:13-50:29
 82                <action android:name="android.intent.action.MAIN" />
-82-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:47:17-69
-82-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:47:25-66
+82-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:47:17-69
+82-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:47:25-66
 83
 84                <category android:name="android.intent.category.LAUNCHER" />
-84-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:49:17-77
-84-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:49:27-74
+84-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:49:17-77
+84-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:49:27-74
 85            </intent-filter>
 86
 87            <meta-data
-87-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:52:13-54:36
+87-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:52:13-54:36
 88                android:name="android.app.lib_name"
-88-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:53:17-52
+88-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:53:17-52
 89                android:value="" />
-89-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:54:17-33
+89-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:54:17-33
 90        </activity>
 91        <activity
-91-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:57:9-61:20
+91-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:57:9-61:20
 92            android:name="com.example.ihuntwithjavalins.CameraActivity"
-92-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:58:13-43
+92-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:58:13-43
 93            android:exported="true" >
-93-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:59:13-36
+93-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:59:13-36
 94        </activity>
 95        <activity
-95-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:63:9-67:20
+95-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:63:9-67:20
 96            android:name="com.example.ihuntwithjavalins.Map.MapActivity"
-96-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:64:13-44
+96-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:64:13-44
 97            android:exported="true" >
-97-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:65:13-36
+97-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:65:13-36
 98        </activity>
 99        <activity
-99-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:69:9-73:20
+99-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:69:9-73:20
 100            android:name="com.example.ihuntwithjavalins.QuickNavActivity"
-100-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:70:13-45
+100-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:70:13-45
 101            android:exported="true" >
-101-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:71:13-36
+101-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:71:13-36
 102        </activity>
 103        <activity
-103-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:75:9-79:20
+103-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:75:9-79:20
 104            android:name="com.example.ihuntwithjavalins.QRCode.QRCodeLibraryActivity"
-104-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:76:13-57
+104-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:76:13-57
 105            android:exported="true" >
-105-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:77:13-36
+105-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:77:13-36
 106        </activity>
 107        <activity
-107-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:81:9-85:20
+107-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:81:9-85:20
 108            android:name="com.example.ihuntwithjavalins.QRCode.QRCodeViewActivity"
-108-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:82:13-54
+108-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:82:13-54
 109            android:exported="true" >
-109-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:83:13-36
+109-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:83:13-36
 110        </activity>
 111        <activity
-111-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:87:9-91:20
+111-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:87:9-91:20
 112            android:name="com.example.ihuntwithjavalins.QRCode.QRCodeImageViewActivity"
-112-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:88:13-59
+112-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:88:13-59
 113            android:exported="true" >
-113-->C:\Users\Amogh Panhale\Downloads\301 Project\IHuntWithJavalins-AmoghsBranch\code\app\src\main\AndroidManifest.xml:89:13-36
+113-->C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:89:13-36
 114        </activity>
 115
 116        <service
