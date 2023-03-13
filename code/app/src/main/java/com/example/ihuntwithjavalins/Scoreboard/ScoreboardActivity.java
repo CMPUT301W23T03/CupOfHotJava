@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,6 +46,9 @@ public class ScoreboardActivity extends AppCompatActivity {
 
     ArrayList<Player> PlayerCodeList;
     ArrayAdapter<Player> PlayerCodeAdaptor;
+    ArrayList<StoreNamePoints> StorageList=new ArrayList<>();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,8 +126,29 @@ public class ScoreboardActivity extends AppCompatActivity {
         codeList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                List<QRCode> codes = PlayerCodeList.get(position).getCodes();
+
+//                Toast.makeText(ScoreboardActivity.this,Integer.toString(codes.size()) , Toast.LENGTH_SHORT).show();
+                for(int i=0;i<codes.size();i++){
+
+                    StoreNamePoints store = new StoreNamePoints(codes.get(i).getCodeName(),codes.get(i).getCodePoints(),true);
+                    StorageList.add(store);
+
+                }
+//                Toast.makeText(ScoreboardActivity.this, StorageList.get(1).getCodeName(), Toast.LENGTH_SHORT).show();
+
+
+
+
                 Intent intent = new Intent(ScoreboardActivity.this,ShowIndividualCodes.class);
+//                Toast.makeText(ScoreboardActivity.this, PlayerCodeList.get(position).getUsername(), Toast.LENGTH_SHORT).show();
+                String get_username = PlayerCodeList.get(position).getUsername();
+                intent.putExtra("USER",get_username);
+                intent.putExtra("codes",StorageList);
+
                 startActivity(intent);
+                StorageList.clear();
             }
         });
 
@@ -191,6 +216,8 @@ public class ScoreboardActivity extends AppCompatActivity {
 
             }
         });
+
+
 
 
 

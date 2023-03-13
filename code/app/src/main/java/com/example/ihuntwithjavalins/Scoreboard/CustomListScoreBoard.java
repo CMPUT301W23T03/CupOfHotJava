@@ -38,8 +38,8 @@ public class CustomListScoreBoard extends ArrayAdapter<Player> {
 
         Player player_details = cities.get(position);
 
-        TextView player_pos = view.findViewById(R.id.place);
-        TextView player_name = view.findViewById(R.id.name);
+        TextView player_pos = view.findViewById(R.id.codeName);
+        TextView player_name = view.findViewById(R.id.code_points);
         TextView player_points = view.findViewById(R.id.points);
 
         player_pos.setText(Integer.toString(position+1));

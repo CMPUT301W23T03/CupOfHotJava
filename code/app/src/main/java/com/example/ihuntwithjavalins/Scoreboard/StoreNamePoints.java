@@ -2,10 +2,11 @@ package com.example.ihuntwithjavalins.Scoreboard;
 
 import com.example.ihuntwithjavalins.QRCode.QRCode;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StoreNamePoints {
+public class StoreNamePoints implements Serializable {
 
     private String codeName;
     private String codePoints;
