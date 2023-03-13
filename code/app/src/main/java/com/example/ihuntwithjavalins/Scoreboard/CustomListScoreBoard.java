@@ -16,7 +16,7 @@ import com.example.ihuntwithjavalins.R;
 import java.util.ArrayList;
 
 /**
- * The CustomListScoreBoard class extends ArrayAdapter<Player> to display a custom list of Players on a scoreboard.
+ * The CustomListScoreBoard class extends ArrayAdapter of type Player to display a custom list of Players on a scoreboard.
  * It contains a constructor and a getView method to set up and return the view for each item in the list.
  */
 public class CustomListScoreBoard extends ArrayAdapter<Player> {
@@ -52,10 +52,12 @@ public class CustomListScoreBoard extends ArrayAdapter<Player> {
         TextView player_pos = view.findViewById(R.id.place);
         TextView player_name = view.findViewById(R.id.name);
         TextView player_points = view.findViewById(R.id.points);
+        TextView player_numcodes = view.findViewById(R.id.num_of_codes);
 
         player_pos.setText(Integer.toString(position+1));
         player_name.setText(player_details.getUsername());
         player_points.setText(Integer.toString(player_details.getTotalCodes()));
+        player_numcodes.setText(Integer.toString(player_details.getCodes().size()));
 
         return view;
 

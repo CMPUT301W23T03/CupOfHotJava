@@ -37,6 +37,7 @@ public class PhotoViewActivity extends Activity {
         ImageView codePicImage = findViewById(R.id.code_photo_taken);
 
         Bundle extras = getIntent().getExtras();
+//        String savedCodePhotoRef = extras.getString("imageSavedCodePhotoRef");//The key argument here must match that used in the other activity
 
         String savedCodePhotoRef = "20230311_115608.jpg"; // testing
         // Get a non-default Storage bucket (https://console.firebase.google.com/u/1/project/ihuntwithjavalins-22de3/storage/ihuntwithjavalins-22de3.appspot.com/files/~2F)
@@ -63,6 +64,9 @@ public class PhotoViewActivity extends Activity {
                 Toast.makeText(getApplicationContext(), "No Such file or Path found!!", Toast.LENGTH_LONG).show();
             }
         });
+
+
+
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

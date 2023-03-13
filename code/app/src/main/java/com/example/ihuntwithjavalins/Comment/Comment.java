@@ -21,7 +21,7 @@ public class Comment {
     /** The date when the comment was made. */
     private Date dateOfComment;
 
-    /** The time of day when the comment was made (for API level >= 26). */
+    /** The time of day when the comment was made */
     private LocalTime timeOfComment;
 
     /**
@@ -29,8 +29,8 @@ public class Comment {
      * @param username The user who made the comment.
      * @param codeComment The text content of the comment.
      */
+
     public Comment(User username, String codeComment) {
-        this.username = username;
         this.codeComment = codeComment;
         dateOfComment = new Date();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

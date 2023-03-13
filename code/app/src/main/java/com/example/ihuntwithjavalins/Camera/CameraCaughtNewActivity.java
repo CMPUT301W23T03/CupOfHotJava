@@ -117,19 +117,14 @@ public class CameraCaughtNewActivity extends AppCompatActivity {
                 });
 
         confirmButton.setOnClickListener(new View.OnClickListener() {
-            /**
-             * Called when the confirm button is clicked.
-             * Retrieves the user's geolocation, saves the code and geolocation data to Firestore, and logs the success or failure of the Firestore sending action.
-             * If the user has selected to save a photo, adds the photo reference to the Firestore data. N
-             * Navigates the user to the QuickNavActivity.
-             * @param view the view that was clicked
-             */
             @Override
             public void onClick(View view) {
                 if (save_geolocation.isChecked()) {
                     // location tracker https://www.digitalocean.com/community/tutorials/android-location-api-tracking-gps
                     LocationTrack locationTrack = new LocationTrack(CameraCaughtNewActivity.this);
                     if (locationTrack.canGetLocation()) {
+//                        String longitude = String.valueOf(locationTrack.getLongitude());//*hide to prevent current location tracking (use fake below)
+//                        String latitude = String.valueOf(locationTrack.getLatitude());
                         Random randomizer = new Random();// fake ones (ualberta campus points) with random offsets
                         String latitude = String.valueOf(53.5269 + ( 0.0001 + (0.0009 - 0.0001) * randomizer.nextDouble()));
                         String longitude = String.valueOf(-113.52740 + ( 0.0001 + (0.0009 - 0.0001) * randomizer.nextDouble()));
@@ -187,6 +182,7 @@ public class CameraCaughtNewActivity extends AppCompatActivity {
             }
         });
 
+
         // Get Firebase Storage bucket (https://console.firebase.google.com/u/1/project/ihuntwithjavalins-22de3/storage/ihuntwithjavalins-22de3.appspot.com/files/~2F)
         FirebaseStorage storage = FirebaseStorage.getInstance("gs://ihuntwithjavalins-22de3.appspot.com/");
         // Create a storage reference from our app (https://firebase.google.com/docs/storage/android/download-files)
@@ -210,5 +206,9 @@ public class CameraCaughtNewActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "No Such file or Path found!!", Toast.LENGTH_LONG).show();
             }
         });
+
+
     }
+
+
 }

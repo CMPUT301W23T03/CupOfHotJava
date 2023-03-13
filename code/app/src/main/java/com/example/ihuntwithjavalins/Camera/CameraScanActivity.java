@@ -82,6 +82,7 @@ public class CameraScanActivity extends AppCompatActivity {
                                 } catch (IOException e) {
                                         e.printStackTrace();
                                 }
+
                         }
                         @Override
                         public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
@@ -95,7 +96,7 @@ public class CameraScanActivity extends AppCompatActivity {
                 barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
                         @Override
                         public void release() {
-                                //...
+                                // Toast.makeText(getApplicationContext(), "To prevent memory leaks barcode scanner has been stopped", Toast.LENGTH_SHORT).show();
                         }
                         @Override
                         public void receiveDetections(Detector.Detections<Barcode> detections) {
@@ -117,28 +118,22 @@ public class CameraScanActivity extends AppCompatActivity {
                                                 }
                                         });
                                         QRCode thisCode = new QRCode(barcodeText.getText().toString());
+//                                        Intent intent = new Intent(CameraScanActivity.this, CameraAnalyzeScannedActivity.class); //testing
                                         Intent intent = new Intent(CameraScanActivity.this, CameraCaughtNewActivity.class); //testing
                                         intent.putExtra("cameraSavedCodeObject", (Serializable) thisCode);
+//                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                         startActivity(intent);
                                 }
                         }
                 });
         }
 
-        /**
-         * Called when the activity is going into the background or when another activity is being displayed in front of this one.
-         * Releases the camera resources and hides the action bar.
-         */
         @Override
         protected void onPause() {
                 super.onPause();
                 getSupportActionBar().hide();
                 cameraSource.release();
         }
-        /**
-         * Called when the activity is being resumed from a paused state.
-         * Hides the action bar and reinitializes the camera detectors and sources.
-         */
         @Override
         protected void onResume() {
                 super.onResume();

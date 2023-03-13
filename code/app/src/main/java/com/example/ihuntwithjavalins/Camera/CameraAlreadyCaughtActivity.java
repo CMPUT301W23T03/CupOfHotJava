@@ -42,10 +42,9 @@ public class CameraAlreadyCaughtActivity extends AppCompatActivity {
     /** A TextView displaying the points associated with the QR code. */
     private TextView codePoints;
     /** An ImageView displaying the picture associated with the QR code. */
-    private ImageView codePicImage;
+    ImageView codePicImage;
 
     String myTAG = "Sample"; // used as starter string for debug-log messaging
-
     /**
      * This activity is displayed when the user scans a QR code that has already been caught. It displays the details of the scanned code and the image of the monster associated with it.
      */
@@ -55,6 +54,9 @@ public class CameraAlreadyCaughtActivity extends AppCompatActivity {
         setContentView(R.layout.scanned_code_already_caught);
 
         backButton = findViewById(R.id.go_back_);
+//        quickNavButton = findViewById(R.id.imageButton);
+//        imageButton = findViewById(R.id.image_button);
+//        deleteButton = findViewById(R.id.btn_remove_code);
 
         codeName = findViewById(R.id.nameofcode);
         codeHash = findViewById(R.id.hashofcode);
@@ -66,10 +68,23 @@ public class CameraAlreadyCaughtActivity extends AppCompatActivity {
         String savedCodeHash = extras.getString("cameraSavedCodeHash");//The key argument here must match that used in the other activity
         String savedCodePoints = extras.getString("cameraSavedCodePoints");//The key argument here must match that used in the other activity
         String savedCodeImageRef = extras.getString("cameraSavedCodeImageRef");//The key argument here must match that used in the other activity
-
+//        String savedCodeLat = extras.getString("librarySavedCodeLat");//The key argument here must match that used in the other activity
+//        String savedCodeLon = extras.getString("librarySavedCodeLon");//The key argument here must match that used in the other activity
+//        String savedCodePhotoRef = extras.getString("librarySavedCodePhotoRef");//The key argument here must match that used in the other activity
         codeName.setText(savedCodeName);
         codeHash.setText(savedCodeHash);
         codePoints.setText(savedCodePoints);
+
+//        // Access a Cloud Firestore instance from your Activity
+//        // my database name is ...  on the ... location
+//        FirebaseFirestore db; // firestore database object (need to import library dependency)
+//        db = FirebaseFirestore.getInstance(); // pull instance of database from firestore
+//
+//        // grabbed any store username variables within app local date storage
+//        SharedPreferences mPrefs = getSharedPreferences("Login", 0);
+//        String mStringU = mPrefs.getString("UsernameTag", "default_username_not_found");
+//        // setup library based on presence of Username tag (either preferences or global var (global var needs to have an open static var that doesnt die))
+//        final CollectionReference collectionRef_Username = db.collection(mStringU); // pull instance of specific collection in firestore
 
         // Get a non-default Storage bucket (https://console.firebase.google.com/u/1/project/ihuntwithjavalins-22de3/storage/ihuntwithjavalins-22de3.appspot.com/files/~2F)
         FirebaseStorage storage = FirebaseStorage.getInstance("gs://ihuntwithjavalins-22de3.appspot.com/");
@@ -99,8 +114,31 @@ public class CameraAlreadyCaughtActivity extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//                BackActionToLibrary();
                 finish();
             }
         });
+
+//        quickNavButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(CameraAlreadyCaughtActivity.this, QuickNavActivity.class);
+//                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                startActivity(intent);
+//            }
+//        });
+
     }
+
+//    @Override
+//    public void onBackPressed() {
+//        BackActionToLibrary();
+//    }
+
+//    void BackActionToLibrary(){
+//        Intent intent = new Intent(CameraAlreadyCaughtActivity.this, QRCodeLibraryActivity.class);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//        startActivity(intent);
+//    }
+
 }

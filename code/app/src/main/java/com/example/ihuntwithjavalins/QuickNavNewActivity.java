@@ -1,6 +1,5 @@
 package com.example.ihuntwithjavalins;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -14,12 +13,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.ihuntwithjavalins.Camera.CameraScanActivity;
-import com.example.ihuntwithjavalins.Map.OpenStreetMapActivity;
 import com.example.ihuntwithjavalins.Player.Player;
 import com.example.ihuntwithjavalins.Profile.ProfileActivity;
 import com.example.ihuntwithjavalins.QRCode.QRCode;
-import com.example.ihuntwithjavalins.QRCode.QRCodeLibraryActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
