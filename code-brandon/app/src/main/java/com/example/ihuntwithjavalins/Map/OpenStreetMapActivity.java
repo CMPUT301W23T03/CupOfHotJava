@@ -32,8 +32,6 @@ import java.util.ArrayList;
 public class OpenStreetMapActivity extends AppCompatActivity {
     private final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
     private MapView map = null;
-//    private MyLocationNewOverlay mLocationOverlay;
-//    private GpsMyLocationProvider mGPSLocationProvider;
     private CompassOverlay mCompassOverlay;
     private ScaleBarOverlay mScaleBarOverlay;
 
@@ -80,9 +78,6 @@ public class OpenStreetMapActivity extends AppCompatActivity {
                 android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
 
                 android.Manifest.permission.ACCESS_COARSE_LOCATION //added
-//                android.Manifest.permission.ACCESS_WIFI_STATE,
-//                android.Manifest.permission.INTERNET,
-//                android.Manifest.permission.ACCESS_NETWORK_STATE,
         };
         requestPermissionsIfNecessary(permissions);
 

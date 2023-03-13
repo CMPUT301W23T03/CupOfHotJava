@@ -27,76 +27,82 @@ import org.osmdroid.views.overlay.compass.InternalCompassOrientationProvider;
 
 import java.util.ArrayList;
 
+/**
+ * Represents an activity that displays a map using OpenStreetMap and allows for displaying the user's location,
+ * as well as adding overlays like a scale bar and compass.
+ */
 public class CodeRefOpenStreetMapActivity extends AppCompatActivity {
+
+    /** Request code used when requesting permissions. */
     private final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
+    /** Map view used to display the map. */
     private MapView map = null;
-    //    private MyLocationNewOverlay mLocationOverlay;
-//    private GpsMyLocationProvider mGPSLocationProvider;
+    /** Compass overlay used to display a compass on the map. */
     private CompassOverlay mCompassOverlay;
+    /** Scale bar overlay used to display a scale bar on the map. */
     private ScaleBarOverlay mScaleBarOverlay;
-
-    LocationTrack locationTrack; // location tracker
-
+    /** Location tracker used to track the user's location. */
+    LocationTrack locationTrack;
+    /** Back button used to exit the activity. */
     Button backButton;
-
-    //custom BACK button control (since back doesnt work when map enabled) (*still doesnt work!!!)
+    /** Overrides the default back button behavior to finish the activity. */
     public void onBackPressed() {
         super.onBackPressed();
         finish();
     }
-    //custom BACK button control (END)
-
+    /**
+     * Called when the activity is created. Initializes the map and its overlays.
+     * @param savedInstanceState A Bundle containing the saved instance state of the activity.
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+// Handle permissions first, before the map is created
+// (permissions handling code not shown here)
 
-        //(handle permissions first, before map is created. not depicted here)
-        //load/initialize the osmdroid configuration, this can be done
+// Load/initialize the osmdroid configuration
         Context ctx = getApplicationContext();
         Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(ctx));
-        //setting this before the layout is inflated is a good idea
-        //it 'should' ensure that the map has a writable location for the map cache, even without permissions
-        //if no tiles are displayed, you can try overriding the cache path using Configuration.getInstance().setCachePath
-        //see also StorageUtils
-        //note, the load method also sets the HTTP User Agent to your application's package name, abusing osm's
-        //tile servers will get you banned based on this string
 
-        //inflate and create the map
+// Setting this before the layout is inflated is a good idea
+// It 'should' ensure that the map has a writable location for the map cache, even without permissions
+// If no tiles are displayed, you can try overriding the cache path using Configuration.getInstance().setCachePath
+// See also StorageUtils
+// Note, the load method also sets the HTTP User Agent to your application's package name, abusing osm's
+// tile servers will get you banned based on this string
+
+// Inflate and create the map
         setContentView(R.layout.open_street_map);
 
+// Get the back button and the map view from the layout
         backButton = findViewById(R.id.map_backButton);
-
         map = (MapView) findViewById(R.id.map);
+
+// Set the tile source to MAPNIK
         map.setTileSource(TileSourceFactory.MAPNIK);
 
+// Request permissions if necessary
         String[] permissions = {
-                // if you need to show the current location, uncomment the line below
-                android.Manifest.permission.ACCESS_FINE_LOCATION,
-                // WRITE_EXTERNAL_STORAGE is required in order to show the map
-                android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
-
-                android.Manifest.permission.ACCESS_COARSE_LOCATION //added
-//                android.Manifest.permission.ACCESS_WIFI_STATE,
-//                android.Manifest.permission.INTERNET,
-//                android.Manifest.permission.ACCESS_NETWORK_STATE,
+                android.Manifest.permission.ACCESS_FINE_LOCATION, // if you need to show the current location, uncomment the line below
+                android.Manifest.permission.WRITE_EXTERNAL_STORAGE, // WRITE_EXTERNAL_STORAGE is required in order to show the map
+                android.Manifest.permission.ACCESS_COARSE_LOCATION // added
         };
         requestPermissionsIfNecessary(permissions);
 
-
+// Enable zoom controls and multi-touch controls
         map.setBuiltInZoomControls(true);
         map.setMultiTouchControls(true);
 
-        //How to add Map 'Scale bar' overlay
+// Add a scale bar overlay to the map
         final DisplayMetrics dm = ctx.getResources().getDisplayMetrics();
         mScaleBarOverlay = new ScaleBarOverlay(map);
         mScaleBarOverlay.setCentred(true);
-        //play around with these values to get the location on screen in the right place for your application
+// Play around with these values to get the location on screen in the right place for your application
         mScaleBarOverlay.setScaleBarOffset(dm.widthPixels / 2, 10);
         map.getOverlays().add(this.mScaleBarOverlay);
-        //How to add Map 'Scale bar' overlay (END)
 
-        //How to add a 'compass' overlay
+// Add a compass overlay to the map
         this.mCompassOverlay = new CompassOverlay(ctx, new InternalCompassOrientationProvider(ctx), map);
         this.mCompassOverlay.enableCompass();
         map.getOverlays().add(this.mCompassOverlay);
@@ -105,7 +111,6 @@ public class CodeRefOpenStreetMapActivity extends AppCompatActivity {
         //Map controller
         IMapController mapController = map.getController();
         mapController.setZoom(18.5);
-//        GeoPoint Point_uofa = new GeoPoint(53.52730, -113.52841);
 
         double latitude = -113.5;
         double longitude = 53.5;
@@ -145,7 +150,6 @@ public class CodeRefOpenStreetMapActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
-
             }
         });
     }
@@ -171,6 +175,13 @@ public class CodeRefOpenStreetMapActivity extends AppCompatActivity {
         map.onPause();  //needed for compass, my location overlays, v6.0.0 and up
     }
 
+    /**
+     * This method is called when the app requests permissions from the user.
+     * It requests permissions for the app using the provided parameters.
+     * @param requestCode an integer representing the request code
+     * @param permissions an array of strings representing the permissions requested
+     * @param grantResults an array of integers representing the results of the permissions requests
+     */
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -186,6 +197,11 @@ public class CodeRefOpenStreetMapActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * This method requests permissions if necessary for the app to function properly.
+     * If the app does not have the necessary permissions, it requests the permissions using ActivityCompat.requestPermissions.
+     * @param permissions an array of strings representing the permissions the app needs
+     */
     private void requestPermissionsIfNecessary(String[] permissions) {
         ArrayList<String> permissionsToRequest = new ArrayList<>();
         for (String permission : permissions) {

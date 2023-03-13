@@ -55,7 +55,7 @@
 <!--        </activity>-->
 
         <activity
-            android:name=".TitleActivity"
+            android:name=".QuickNavNewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
