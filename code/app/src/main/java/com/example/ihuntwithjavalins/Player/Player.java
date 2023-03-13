@@ -10,7 +10,7 @@ import java.util.List;
  * Players in the application.
  * @version 1.0
  */
-public class Player {
+public class Player implements Comparable<Player> {
     /**
      * Holds the unique uuid of the Player
      */
@@ -189,6 +189,10 @@ public class Player {
      */
     public void delCode(QRCode code) {
         codes.remove(code);    // May want to have an exception thrown if trying to remove a QRCode that does not exist
+    }
+
+    public int compareTo(Player other) {
+        return Integer.compare(this.getTotalCodes(), other.getTotalCodes());
     }
 
     /**

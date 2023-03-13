@@ -20,7 +20,7 @@
         android:textSize="30sp"></TextView>
 
     <TextView
-        android:id="@+id/points"
+        android:id="@+id/isScanned"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_weight="1" />

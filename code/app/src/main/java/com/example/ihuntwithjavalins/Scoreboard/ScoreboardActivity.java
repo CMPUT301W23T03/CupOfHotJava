@@ -1,17 +1,45 @@
 package com.example.ihuntwithjavalins.Scoreboard;
 
+import static android.content.ContentValues.TAG;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ihuntwithjavalins.Player.Player;
 import com.example.ihuntwithjavalins.QRCode.QRCode;
 import com.example.ihuntwithjavalins.R;
+import com.example.ihuntwithjavalins.common.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.firestore.Transaction;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class ScoreboardActivity extends AppCompatActivity {
 
@@ -27,6 +55,10 @@ public class ScoreboardActivity extends AppCompatActivity {
 
         codeList = findViewById(R.id.user_code_list);
         PlayerCodeList = new ArrayList<>();
+
+        String[] names = {"IAmStan", "MrKatana", "Viraj"};
+
+
 
         QRCode q1 = new QRCode("10");
         QRCode q2 = new QRCode("2_432100");
@@ -83,12 +115,85 @@ public class ScoreboardActivity extends AppCompatActivity {
         PlayerCodeList.add(player3);
         PlayerCodeList.add(player4);
         PlayerCodeList.add(player5);
-
-        Toast.makeText(this, Integer.toString(me.getTotalCodes()), Toast.LENGTH_SHORT).show();
-
-
-        PlayerCodeAdaptor = new CustomListScoreBoard(this,PlayerCodeList);
+        PlayerCodeAdaptor = new CustomListScoreBoard(ScoreboardActivity.this,PlayerCodeList);
         codeList.setAdapter(PlayerCodeAdaptor);
+
+
+        codeList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(ScoreboardActivity.this,ShowIndividualCodes.class);
+                startActivity(intent);
+            }
+        });
+
+//        Toast.makeText(this, Integer.toString(me.getTotalCodes()), Toast.LENGTH_SHORT).show();
+
+        Button points_btn = findViewById(R.id.sort_points_btn);
+        points_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Toast.makeText(ScoreboardActivity.this, "Sort By Points", Toast.LENGTH_SHORT).show();
+                Collections.sort(PlayerCodeList);
+                PlayerCodeAdaptor = new CustomListScoreBoard(ScoreboardActivity.this,PlayerCodeList);
+                codeList.setAdapter(PlayerCodeAdaptor);
+
+            }
+        });
+
+        Button names_btn = findViewById(R.id.sort_name_btn);
+        names_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Toast.makeText(ScoreboardActivity.this, "Sort by names", Toast.LENGTH_SHORT).show();
+                // Sort the player list by name
+                Collections.sort(PlayerCodeList, new Comparator<Player>() {
+                    @Override
+                    public int compare(Player p1, Player p2) {
+                        return p1.getUsername().compareTo(p2.getUsername());
+                    }
+                });
+
+                // Update the adapter with the sorted list
+
+                PlayerCodeAdaptor = new CustomListScoreBoard(ScoreboardActivity.this,PlayerCodeList);
+                codeList.setAdapter(PlayerCodeAdaptor);
+
+
+            }
+        });
+
+        Button search_btn = findViewById(R.id.search_btn);
+        search_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TextView searchEditText = findViewById(R.id.search_user);
+                String searchQuery = searchEditText.getText().toString().toLowerCase();
+
+                ArrayList<Player> searchResultsList = new ArrayList<>();
+
+                for (Player player : PlayerCodeList) {
+                    if (player.getUsername().toLowerCase().contains(searchQuery)) {
+                        searchResultsList.add(player);
+                    }
+                }
+
+                if (searchResultsList.size() == 0){
+                    Toast.makeText(ScoreboardActivity.this, "Couldnt find any names starting with"+searchQuery, Toast.LENGTH_SHORT).show();
+                }
+                else {
+
+                    // Display search results in the list view
+                    PlayerCodeAdaptor = new CustomListScoreBoard(ScoreboardActivity.this, searchResultsList);
+                    codeList.setAdapter(PlayerCodeAdaptor);
+                    PlayerCodeAdaptor.notifyDataSetChanged();
+                }
+
+            }
+        });
+
+
+
 
 
 

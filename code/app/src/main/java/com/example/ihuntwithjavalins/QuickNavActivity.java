@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.ihuntwithjavalins.Camera.CameraScanActivity;
 import com.example.ihuntwithjavalins.Map.OpenStreetMapActivity;
 import com.example.ihuntwithjavalins.QRCode.QRCodeLibraryActivity;
+import com.example.ihuntwithjavalins.Scoreboard.ScoreboardActivity;
 
 import java.util.Arrays;
 
@@ -103,8 +104,8 @@ public class QuickNavActivity extends AppCompatActivity {
         scoreboardButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(QuickNavActivity.this, ScoreboardActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(QuickNavActivity.this, ScoreboardActivity.class);
+                startActivity(intent);
             }
         });
 
