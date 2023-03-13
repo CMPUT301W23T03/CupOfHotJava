@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -50,7 +51,8 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/button1"
         android:gravity="left"
-        android:text="Scan A Code" />
+        android:text="Scan A Code"
+        android:textColor="@color/text2_general"/>
 
     <TextView
         android:id="@+id/goto_map"
@@ -71,7 +73,8 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/button1"
         android:gravity="left"
-        android:text="Open The Map" />
+        android:text="Open The Map"
+        android:textColor="@color/text2_general"/>
 
     <TextView
         android:id="@+id/goto_codeLibrary"
@@ -92,7 +95,8 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/button1"
         android:gravity="left"
-        android:text="See My Code Library" />
+        android:text="See My Code Library"
+        android:textColor="@color/text2_general" />
 
     <TextView
         android:id="@+id/goto_scoreboard"
@@ -113,8 +117,7 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/button1"
         android:gravity="left"
-        android:text="See The Scoreboard"
-        android:textColor="@color/text2_general" />
+        android:text="See The Scoreboard" />
 
     <TextView
         android:id="@+id/goto_myProfile"

@@ -45,10 +45,11 @@
 
     <ImageView
         android:id="@+id/civ_display_img"
-        android:layout_width="412dp"
-        android:layout_height="326dp"
+        android:layout_width="406dp"
+        android:layout_height="190dp"
         android:textColor="@color/purple_200"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/civ_hash_code_"
         app:srcCompat="@drawable/a_project_x" />
@@ -70,10 +71,10 @@
         android:id="@+id/civ_show_attached"
         android:layout_width="252dp"
         android:layout_height="63dp"
-        android:layout_marginTop="14dp"
         android:text="See the photo you attached to this"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/civ_total_points" />
 
@@ -81,13 +82,13 @@
         android:id="@+id/civ_no_geo_btn"
         android:layout_width="257dp"
         android:layout_height="65dp"
-        android:layout_marginTop="23dp"
         android:text="See geolocation of where you caught this"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/civ_show_attached" />
+        app:layout_constraintTop_toBottomOf="@+id/civ_show_attached"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/civ_hash_code_"
@@ -97,5 +98,16 @@
         android:textColor="@color/purple_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/civ_qr_code_name" />
+
+    <ImageButton
+        android:id="@+id/menu_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_menu_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

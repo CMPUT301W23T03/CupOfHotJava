@@ -33,12 +33,16 @@ import com.google.firebase.storage.StorageReference;
  */
 public class CameraAlreadyCaughtActivity extends AppCompatActivity {
 
-    ImageButton backButton;
-    TextView codeName;
-    TextView codeHash;
-    TextView codePoints;
-
-    ImageView codePicImage;
+    /** An ImageButton representing a back button. */
+    private ImageButton backButton;
+    /** A TextView displaying the name of the QR code. */
+    private TextView codeName;
+    /** A TextView displaying the hash of the QR code. */
+    private TextView codeHash;
+    /** A TextView displaying the points associated with the QR code. */
+    private TextView codePoints;
+    /** An ImageView displaying the picture associated with the QR code. */
+    private ImageView codePicImage;
 
     String myTAG = "Sample"; // used as starter string for debug-log messaging
 

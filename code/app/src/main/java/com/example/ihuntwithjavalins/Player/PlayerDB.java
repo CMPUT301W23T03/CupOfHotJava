@@ -77,10 +77,11 @@ public class PlayerDB {
         String playerUsername = player.getUsername();
         DocumentReference playerRef = collection.document(playerUsername);
         Map<String, Object> item = new HashMap<>();
-        item.put("Phone", player.getPhoneNumber());
         item.put("Email", player.getEmail());
         item.put("Region", player.getRegion());
-        batch.set(playerRef, item);
+        //item.put("highest score", 0);
+        //item.put("total score", 0);
+        batch.update(playerRef, item);
 
         // commits batch writes to firebase
         batch.commit().addOnCompleteListener(task -> {
@@ -110,7 +111,7 @@ public class PlayerDB {
                 if (document.exists()) {
                     Log.d(myTAG, ":exists:" + playerUsername);
                     Player player = new Player();
-                    player.setUsername(document.getString("Username"));
+                    player.setUsername(document.getId());
                     player.setEmail(document.getString("Email"));
                     player.setRegion(document.getString("Region"));
                     listener.onComplete(player, true);
@@ -150,34 +151,6 @@ public class PlayerDB {
         });
     }
 
-//    /**
-//     * Updates the given player's username in the database
-//     * @param player the given player to update
-//     * @param newUsername the new username
-//     * @param listener the listener to call when the player is updated
-//     */
-//    public void updatePlayerUsername(Player player, String newUsername, OnCompleteListener<Player> listener) {
-//        String uuid = player.getId();
-//        DocumentReference playerRef = collection.document("user" + uuid);
-//        playerRef
-//                .update("Username", newUsername)
-//                .addOnSuccessListener(new OnSuccessListener<Void>() {
-//                    @Override
-//                    public void onSuccess(Void aVoid) {
-//                        player.setUsername(newUsername);
-//                        listener.onComplete(player, true);
-//                        Log.d(myTAG, "Username successfully updated!");
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        listener.onComplete(player, false);
-//                        Log.w(myTAG, "Error updating document", e);
-//                    }
-//                });
-//    }
-
     /**
      * Updates the given player's email in the database
      * @param player the given player to update
@@ -205,34 +178,6 @@ public class PlayerDB {
                     }
                 });
     }
-
-//    /**
-//     * Updates the given player's phone number in the database
-//     * @param player the given player to update
-//     * @param newContact the new phone number
-//     * @param listener the listener to call when the player is updated
-//     */
-//    public void updatePlayerPhoneNumber(Player player, String newContact, OnCompleteListener<Player> listener) {
-//        String playerUsername = player.getUsername();
-//        DocumentReference playerRef = collection.document(playerUsername);
-//        playerRef
-//                .update("Phone Number", newContact)
-//                .addOnSuccessListener(new OnSuccessListener<Void>() {
-//                    @Override
-//                    public void onSuccess(Void aVoid) {
-//                        player.setPhoneNumber(newContact);
-//                        listener.onComplete(player, true);
-//                        Log.d(myTAG, "Phone Number successfully updated!");
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        listener.onComplete(player, false);
-//                        Log.w(myTAG, "Error updating document", e);
-//                    }
-//                });
-//    }
 
     /**
      * Updates the given player's phone number in the database

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
+INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
+INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
+INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\95950d354b84d5d91cbfde9f6f44b692\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\4fdbead62801f6c959c95d643aa636bd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\17a1842c47d9133c836cc43809dde9fe\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -63,22 +63,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Amogh Panhale\.gradle\caches\t
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\6aa5cdca630ead1c07a911e911c3ed92\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\e0838ccf585fdb832cdbbb98b2d4a3da\transformed\grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\59cd6c38072658aa0875a221549c571a\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
-INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
+INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
+INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
 	package
 		INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
 		INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
 		INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12
 		INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:11-69
@@ -137,7 +137,7 @@ ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\
 	android:name
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:21:22-78
 application
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:26:5-93:19
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:26:5-135:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\95950d354b84d5d91cbfde9f6f44b692\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\95950d354b84d5d91cbfde9f6f44b692\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\4fdbead62801f6c959c95d643aa636bd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -204,64 +204,100 @@ ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:39:13-70
-activity#com.example.ihuntwithjavalins.SignupActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:43:9-55:20
-	android:exported
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:45:13-36
-	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:44:13-43
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:46:13-50:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:47:17-69
-	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:47:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:49:17-77
-	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:49:27-74
-meta-data#android.app.lib_name
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:52:13-54:36
-	android:value
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:54:17-33
-	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:53:17-52
-activity#com.example.ihuntwithjavalins.CameraActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:57:9-61:20
+activity#com.example.ihuntwithjavalins.QuickNavActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:57:9-67:20
 	android:exported
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:59:13-36
 	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:58:13-43
-activity#com.example.ihuntwithjavalins.Map.MapActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:63:9-67:20
-	android:exported
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:65:13-36
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:58:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:60:13-63:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:64:13-44
-activity#com.example.ihuntwithjavalins.QuickNavActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:69:9-73:20
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:62:27-74
+meta-data#android.app.lib_name
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:64:13-66:36
+	android:value
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:66:17-33
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:65:17-52
+activity#com.example.ihuntwithjavalins.SignUpActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:69:9-72:20
 	android:exported
 		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:71:13-36
 	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:70:13-45
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:70:13-43
+activity#com.example.ihuntwithjavalins.Camera.CameraScanActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:79:9-82:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:80:13-54
+activity#com.example.ihuntwithjavalins.Camera.CameraAnalyzeScannedActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:84:9-87:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:86:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:85:13-64
+activity#com.example.ihuntwithjavalins.Camera.CameraAlreadyCaughtActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:89:9-92:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:91:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:90:13-63
+activity#com.example.ihuntwithjavalins.Camera.CameraCaughtNewActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:94:9-97:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:95:13-59
+activity#com.example.ihuntwithjavalins.Map.OpenStreetMapActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:99:9-102:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:101:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:100:13-54
 activity#com.example.ihuntwithjavalins.QRCode.QRCodeLibraryActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:75:9-79:20
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:104:9-107:20
 	android:exported
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:77:13-36
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:106:13-36
 	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:76:13-57
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:105:13-57
 activity#com.example.ihuntwithjavalins.QRCode.QRCodeViewActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:81:9-85:20
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:109:9-112:20
 	android:exported
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:83:13-36
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:111:13-36
 	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:82:13-54
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:110:13-54
 activity#com.example.ihuntwithjavalins.QRCode.QRCodeImageViewActivity
-ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:87:9-91:20
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:114:9-117:20
 	android:exported
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:89:13-36
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:116:13-36
 	android:name
-		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:88:13-59
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:115:13-59
+activity#com.example.ihuntwithjavalins.Map.CodeRefOpenStreetMapActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:119:9-122:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:121:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:120:13-61
+activity#com.example.ihuntwithjavalins.Camera.PhotoViewActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:124:9-127:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:126:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:125:13-53
+activity#com.example.ihuntwithjavalins.Profile.ProfileActivity
+ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:129:9-132:20
+	android:exported
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:131:13-36
+	android:name
+		ADDED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:130:13-52
 uses-sdk
 INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml
@@ -427,9 +463,9 @@ ADDED from [org.osmdroid:osmdroid-android:6.1.12] C:\Users\Amogh Panhale\.gradle
 	android:name
 		ADDED from [org.osmdroid:osmdroid-android:6.1.12] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\d8e702fcccab9474ba73db1a63f45f5a\transformed\osmdroid-android-6.1.12\AndroidManifest.xml:24:9-45
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12 reason: org.osmdroid.library has a targetSdkVersion < 4
+IMPLIED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12 reason: org.osmdroid.library has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-95:12 reason: org.osmdroid.library requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Amogh Panhale\Downloads\IHuntWithJavalins\code\app\src\main\AndroidManifest.xml:2:1-137:12 reason: org.osmdroid.library requested WRITE_EXTERNAL_STORAGE
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\13676c0c5643531777a3ef62e0f0f153\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Amogh Panhale\.gradle\caches\transforms-3\765f0d799671d67a8a67844118f915a0\transformed\firebase-storage-20.1.0\AndroidManifest.xml:29:9-35:19

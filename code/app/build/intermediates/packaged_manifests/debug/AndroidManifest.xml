@@ -75,8 +75,25 @@
             android:value="barcode" />
         <!-- for camera and barcode stuff (END) -->
 
+
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="android.app.lib_name" -->
+        <!-- android:value="" /> -->
+        <!-- </activity> -->
+
         <activity
-            android:name="com.example.ihuntwithjavalins.SignupActivity"
+            android:name="com.example.ihuntwithjavalins.QuickNavActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -89,15 +106,33 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ihuntwithjavalins.CameraActivity"
+            android:name="com.example.ihuntwithjavalins.SignUpActivity"
+            android:exported="true" >
+        </activity>
+
+        <!-- <activity -->
+        <!-- android:name=".QuickNavActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- </activity> -->
+
+        <activity
+            android:name="com.example.ihuntwithjavalins.Camera.CameraScanActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.ihuntwithjavalins.Map.MapActivity"
+            android:name="com.example.ihuntwithjavalins.Camera.CameraAnalyzeScannedActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.ihuntwithjavalins.QuickNavActivity"
+            android:name="com.example.ihuntwithjavalins.Camera.CameraAlreadyCaughtActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.ihuntwithjavalins.Camera.CameraCaughtNewActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.ihuntwithjavalins.Map.OpenStreetMapActivity"
             android:exported="true" >
         </activity>
         <activity
@@ -110,6 +145,18 @@
         </activity>
         <activity
             android:name="com.example.ihuntwithjavalins.QRCode.QRCodeImageViewActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.ihuntwithjavalins.Map.CodeRefOpenStreetMapActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.ihuntwithjavalins.Camera.PhotoViewActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.ihuntwithjavalins.Profile.ProfileActivity"
             android:exported="true" >
         </activity>
 

@@ -21,10 +21,15 @@ import com.google.firebase.firestore.QuerySnapshot;
  */
 public class CameraAnalyzeScannedActivity extends AppCompatActivity {
 
+    /** Flag to indicate if the QR code has already been caught by the user. */
     private int alreadycaught_flag = 0;
+    /** The hash value of the QR code that was scanned and caught by the user. */
     String savedHash;
+    /** The name of the QR code that was scanned and caught by the user. */
     String savedName;
+    /** The points awarded for catching the QR code that was scanned and caught by the user. */
     String savedPoints;
+    /** The reference to the image associated with the QR code that was scanned and caught by the user. */
     String savedImgRef;
 
     /**

@@ -27,9 +27,9 @@ public class DBConnection {
      */
     private FirebaseFirestore db;
     /**
-     * Holds string representation of unique user username
+     * Holds string representation of unique user id
      */
-    private String playerUsername;
+    private String uuid;
 
     /**
      * Constructor for the DBConnection, ie. Connects with the firestore database and gives the
@@ -38,55 +38,29 @@ public class DBConnection {
      */
     public DBConnection(Context context) {
         this.db = FirebaseFirestore.getInstance();
-        this.playerUsername = getUsername(context);
-        if(playerUsername == null){
-            this.playerUsername = "this is not a username";
-        }
-        Log.d(myTAG, "New Username:" + this.playerUsername);
+        this.uuid = getUUID(context);
+        Log.d(myTAG, "New UUID:" + this.uuid);
     }
 
     /**
-     * Sets the username in the shared preferences of the device to identify the user
+     * Gets the UUID for the device to identify user and randomly generates one if not existing already
      * @param context the context of the application
-     * @param username the username to put into shared preferences
+     * @return the unique user id
      */
-    public void setUsername(Context context, String username) {
+    public String getUUID(Context context) {
         SharedPreferences sharedPreferences;
         sharedPreferences = context.getApplicationContext().getSharedPreferences("preferences", Context.MODE_PRIVATE);    // Opening Preference files Citation: https://developer.android.com/reference/android/content/Context#getApplicationContext()
 
-        String foundUsername = sharedPreferences.getString("Username", null);    // second value null means return null if preference UUID does not exist
+        String uuid = sharedPreferences.getString("UUID", null);    // second value null means return null if preference UUID does not exist
 
-        if (foundUsername == null) {
+        if (uuid == null) {
             SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putString("Username", playerUsername);
+            uuid = UUID.randomUUID().toString();    // generates a random UUID for the user, not sure if this will cause a problem if it creates the same UUID by chance for 2 seperate users
+            editor.putString("UUID", uuid);
             editor.apply();
         }
-    }
 
-    public void setPlayerUsername(String name) {
-        this.playerUsername = name;
-    }
-
-    /**
-     * Gets the Username for the device to identify user
-     * @param context the context of the application
-     * @return the unique username if found, null if not found
-     */
-    public String getUsername(Context context) {
-        SharedPreferences sharedPreferences;
-        sharedPreferences = context.getApplicationContext().getSharedPreferences("preferences", Context.MODE_PRIVATE);    // Opening Preference files Citation: https://developer.android.com/reference/android/content/Context#getApplicationContext()
-
-        String username = sharedPreferences.getString("Username", null);    // second value null means return null if preference UUID does not exist
-
-        return username;
-    }
-
-    /**
-     * Gets the username of the user of the DBConnection
-     * @return returns the username of the user
-     */
-    public String getUsername() {
-        return this.playerUsername;
+        return uuid;
     }
 
     /**
@@ -95,7 +69,7 @@ public class DBConnection {
      * @return reference to given subcollection
      */
     public CollectionReference getSubCollection(String subCollection) {
-        return this.db.collection("Users").document(playerUsername).collection(subCollection);
+        return this.db.collection("Users").document(uuid).collection(subCollection);
     }
 
     /**
@@ -111,7 +85,7 @@ public class DBConnection {
      * @return reference to the user document
      */
     public DocumentReference getUserDocument() {
-        return this.db.collection("Users").document(playerUsername);
+        return this.db.collection("Users").document(uuid);
     }
 
     /**
