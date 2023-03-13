@@ -55,6 +55,6 @@ dependencies {
     // Add the dependency for the Cloud Storage library
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-storage'// for firebase cloud storage SDK functionality (for image storage bucket) https://firebase.google.com/docs/storage/android/start#java
-//    implementation files('C:\\Users\\Amogh Panhale\\Downloads\\IHuntWithJavalins\\code-brandon\\platforms\\android-33\\android.jar') //replace the address with the local android.jar address if javadocs are not generating. Keep it commented for normal code running
+    implementation files('C:\\Users\\Amogh Panhale\\AppData\\Local\\Android\\Sdk\\platforms\\android-33\\android.jar') //replace the address with the local android.jar address if javadocs are not generating. Keep it commented for normal code running
 
 }
