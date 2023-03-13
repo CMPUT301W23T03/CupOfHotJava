@@ -151,34 +151,6 @@ public class PlayerDB {
         });
     }
 
-//    /**
-//     * Updates the given player's username in the database
-//     * @param player the given player to update
-//     * @param newUsername the new username
-//     * @param listener the listener to call when the player is updated
-//     */
-//    public void updatePlayerUsername(Player player, String newUsername, OnCompleteListener<Player> listener) {
-//        String uuid = player.getId();
-//        DocumentReference playerRef = collection.document("user" + uuid);
-//        playerRef
-//                .update("Username", newUsername)
-//                .addOnSuccessListener(new OnSuccessListener<Void>() {
-//                    @Override
-//                    public void onSuccess(Void aVoid) {
-//                        player.setUsername(newUsername);
-//                        listener.onComplete(player, true);
-//                        Log.d(myTAG, "Username successfully updated!");
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        listener.onComplete(player, false);
-//                        Log.w(myTAG, "Error updating document", e);
-//                    }
-//                });
-//    }
-
     /**
      * Updates the given player's email in the database
      * @param player the given player to update
@@ -206,34 +178,6 @@ public class PlayerDB {
                     }
                 });
     }
-
-//    /**
-//     * Updates the given player's phone number in the database
-//     * @param player the given player to update
-//     * @param newContact the new phone number
-//     * @param listener the listener to call when the player is updated
-//     */
-//    public void updatePlayerPhoneNumber(Player player, String newContact, OnCompleteListener<Player> listener) {
-//        String playerUsername = player.getUsername();
-//        DocumentReference playerRef = collection.document(playerUsername);
-//        playerRef
-//                .update("Phone Number", newContact)
-//                .addOnSuccessListener(new OnSuccessListener<Void>() {
-//                    @Override
-//                    public void onSuccess(Void aVoid) {
-//                        player.setPhoneNumber(newContact);
-//                        listener.onComplete(player, true);
-//                        Log.d(myTAG, "Phone Number successfully updated!");
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        listener.onComplete(player, false);
-//                        Log.w(myTAG, "Error updating document", e);
-//                    }
-//                });
-//    }
 
     /**
      * Updates the given player's phone number in the database
