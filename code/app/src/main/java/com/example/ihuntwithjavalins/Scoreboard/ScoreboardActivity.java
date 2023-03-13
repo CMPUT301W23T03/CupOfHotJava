@@ -13,6 +13,12 @@ import com.example.ihuntwithjavalins.R;
 
 import java.util.ArrayList;
 
+/**
+ * ScoreboardActivity is an activity class that displays a list of players and their scores in a scoreboard.
+ * The activity extends AppCompatActivity and initializes a ListView to display the list of players and their scores.
+ * It creates an ArrayList of Player objects and adds QRCode objects to the player's list of codes. It then adds each player to the ArrayList.
+ * The class also creates an instance of CustomListScoreBoard class to populate the ListView with data from the ArrayList.
+ */
 public class ScoreboardActivity extends AppCompatActivity {
 
     ArrayList<Player> PlayerCodeList;

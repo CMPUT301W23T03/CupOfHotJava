@@ -33,6 +33,12 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Random;
 
+/**
+ * The QRCodeLibraryActivity is responsible for displaying a list of QR codes in the user's library.
+ * It retrieves QR codes data from a Firestore database, and displays them in a ListView using a custom ArrayAdapter.
+ * It also allows the user to add preloaded QR codes to their library for testing purposes.
+ * This class extends AppCompatActivity, which is a base class for activities that use the support library action bar features.
+ */
 public class QRCodeLibraryActivity extends AppCompatActivity {
 
     private Button codeLib_quickNav;
