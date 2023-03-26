@@ -183,12 +183,16 @@ public class ScoreboardActivity extends AppCompatActivity {
 //                String get_username = playerList.get(position).getUsername();
                 Player focusedPlayer = playerList.get(position);
                 intent.putExtra("focusedPlayer", (Serializable) focusedPlayer);
+                intent.putExtra("playerList",playerList);
+
 //                intent.putExtra("USER", get_username);
                 intent.putExtra("codes", StorageList);
                 startActivity(intent);
                 StorageList.clear();
             }
         });
+
+
 
         Button points_btn = findViewById(R.id.sort_points_btn);
         points_btn.setOnClickListener(new View.OnClickListener() {

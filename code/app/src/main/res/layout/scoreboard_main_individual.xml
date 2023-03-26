@@ -22,7 +22,7 @@
             app:layout_constraintHorizontal_bias="0.057"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.086" />
+            app:layout_constraintVertical_bias="0.142" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -32,17 +32,18 @@
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/have_btn"
-            app:layout_constraintVertical_bias="0.906">
+            app:layout_constraintVertical_bias="0.326">
 
-            <ListView
-                android:id="@+id/code_list"
-                android:layout_width="wrap_content"
-                android:layout_height="397dp"
-                android:layout_weight="1"
-                android:choiceMode="singleChoice"
-                android:listSelector="#999999" />
+                                    <ListView
+                                        android:id="@+id/code_list"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="346dp"
+                                        android:layout_weight="1"
+                                        android:choiceMode="singleChoice"
+                                        android:listSelector="#999999" />
 
 
         </LinearLayout>
@@ -51,11 +52,12 @@
             android:id="@+id/have_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:text="Have"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.086" />
+            app:layout_constraintVertical_bias="0.139" />
 
         <Button
             android:id="@+id/dont_have_btn"
@@ -64,10 +66,10 @@
             android:text="Dont Have"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.32"
             app:layout_constraintStart_toEndOf="@+id/have_btn"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.086" />
+            app:layout_constraintVertical_bias="0.143" />
 
         <TextView
             android:id="@+id/userName"
@@ -76,10 +78,10 @@
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.542"
             app:layout_constraintStart_toEndOf="@+id/textname"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.027" />
+            app:layout_constraintVertical_bias="0.049" />
 
         <TextView
             android:id="@+id/textname"
@@ -89,10 +91,10 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.038"
             app:layout_constraintStart_toEndOf="@+id/go_back_btn"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.027" />
+            app:layout_constraintVertical_bias="0.049" />
 
         <ImageButton
             android:id="@+id/go_back_btn"
@@ -103,8 +105,20 @@
             app:layout_constraintHorizontal_bias="0.044"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.023"
+            app:layout_constraintVertical_bias="0.049"
             app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <Button
+            android:id="@+id/player_profile_btn"
+            android:layout_width="276dp"
+            android:layout_height="69dp"
+            android:text="See players profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.561" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

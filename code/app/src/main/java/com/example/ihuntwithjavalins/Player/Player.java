@@ -192,6 +192,16 @@ public class Player implements Serializable, Comparable<Player> {
     public void delCode(QRCode code) {
         codes.remove(code);    // May want to have an exception thrown if trying to remove a QRCode that does not exist
     }
+    public int getHighestCode() {
+        List<QRCode> all_codes = getCodes();
+        int max_code = 0;
+        for (QRCode object : all_codes) {
+            if (Integer.parseInt(object.getCodePoints())>max_code){
+                max_code = Integer.parseInt(object.getCodePoints());
+            }
+        }
+        return max_code;
+    }
 
     /**
      * Checks if the QRCode given is a QRCode the Player has scanned

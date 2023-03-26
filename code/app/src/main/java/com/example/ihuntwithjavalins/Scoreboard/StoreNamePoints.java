@@ -30,8 +30,4 @@ public class StoreNamePoints implements Serializable {
     public String getCodePoints() {
         return codePoints;
     }
-
-    public boolean isScanned() {
-        return isScanned;
-    }
 }
