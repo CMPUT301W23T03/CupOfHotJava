@@ -13,15 +13,14 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Random;
-import java.net.URL;
 
 
 /**
  * A java version of the php script for MonsterID by splitbrain as taken from https://github.com/splitbrain/monsterID/blob/master/monsterid.php
+ * the parts folder is from https://wordpress.org/plugins/wp-monsterid/#installation
  * */
 public class MonsterID {
 
@@ -68,7 +67,7 @@ public class MonsterID {
             if (part.equals("body")) {
                 rand.setSeed(seed); // use same seed for coloring
                 paint.setColor(Color.rgb(rand.nextInt(215) + 20, rand.nextInt(215) + 20, rand.nextInt(215) + 20));
-                canvas.drawRect(new Rect(SIZE / 2 - 10, SIZE / 2 - 10, SIZE / 2 + 10, SIZE / 2 + 10), paint);
+                // Do not draw the colored box
             }
         }
 
@@ -85,6 +84,7 @@ public class MonsterID {
             throw new IllegalArgumentException("Image size too large: " + size);
         }
     }
+
 
     public static void generateAndSetImage(View view, String hash) {
         AssetManager assetManager = view.getContext().getAssets();
